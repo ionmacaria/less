@@ -1,0 +1,14 @@
+less.settings:
+  path: '/admin/config/development/less'
+  defaults:
+    _title: 'LESS'
+    _form: '\Drupal\less\Form\LessAdminForm'
+  requirements:
+    _permission: 'LESS_PERMISSION'
+less.ajax:
+  path: 'ajax/less/watch.json'
+  defaults:
+    _controller: '\Drupal\less\Controller\LessWatchController::_less_watch'
+  methods:  [POST]
+  requirements:
+    _access: 'TRUE'

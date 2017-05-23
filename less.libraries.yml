@@ -1,0 +1,3 @@
+less-watch:
+  js:
+    scripts/less.watch.js: {}

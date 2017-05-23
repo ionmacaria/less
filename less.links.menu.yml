@@ -1,0 +1,6 @@
+less.settings:
+  title: 'LESS'
+  description: 'Administer LESS settings'
+  route_name: less.settings
+  parent: system.admin_config_development
+  weight: 10
