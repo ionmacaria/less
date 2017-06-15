@@ -1,4 +1,4 @@
-LESS_PERMISSION:
+administer less:
   title: 'Administer LESS'
   description: 'Access the LESS settings page and view debug messages.'
   restrict access: FALSE
