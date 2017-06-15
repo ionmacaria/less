@@ -4,7 +4,7 @@ less.settings:
     _title: 'LESS'
     _form: '\Drupal\less\Form\LessAdminForm'
   requirements:
-    _permission: 'LESS_PERMISSION'
+    _permission: 'administer less'
 less.ajax:
   path: 'ajax/less/watch.json'
   defaults:
